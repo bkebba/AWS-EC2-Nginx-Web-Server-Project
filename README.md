@@ -15,21 +15,21 @@ I installed Nginx and deployed a simple web page.
 ## Commands used
 
 
-sudo yum update -y
-sudo yum install nginx -y
-sudo systemctl start nginx
-sudo systemctl enable nginx
-sudo systemctl status nginx
-curl localhost
-sudo nano /usr/share/nginx/html/index.html
-sudo systemctl restart nginx
-cat /etc/os-release
-ifconfig
-hostname
+- sudo yum update -y
+- sudo yum install nginx -y
+- sudo systemctl start nginx
+- sudo systemctl enable nginx
+- sudo systemctl status nginx
+- curl localhost
+- sudo nano /usr/share/nginx/html/index.html
+- sudo systemctl restart nginx
+- cat /etc/os-release
+- ifconfig
+- hostname
 
 What I learned
-How to launch an EC2 instance
-How to connect using SSH
-How to install and manage Nginx
-How to open HTTP traffic using security groups
-How to deploy a custom webpage on AWS
+- How to launch an EC2 instance
+- How to connect using SSH
+- How to install and manage Nginx
+- How to open HTTP traffic using security groups
+- How to deploy a custom webpage on AWS
