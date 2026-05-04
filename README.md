@@ -12,19 +12,6 @@ I installed Nginx and deployed a simple web page.
 - Opened port 80
 - Deployed a custom webpage
 
-```bash
-sudo yum update -y
-sudo yum install nginx -y
-sudo systemctl start nginx
-sudo systemctl enable nginx
-sudo systemctl status nginx
-curl localhost
-sudo nano /usr/share/nginx/html/index.html
-sudo systemctl restart nginx
-cat /etc/os-release
-ifconfig
-hostname
-
 ## What I learned
 - How to launch an EC2 instance
 - How to connect using SSH
@@ -48,3 +35,19 @@ The screenshots in this repository show:
 - Port 80 open for HTTP traffic
 - Nginx welcome page
 - Custom webpage deployed
+
+## Commands used
+```bash
+sudo yum update -y
+sudo yum install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status nginx
+curl localhost
+sudo nano /usr/share/nginx/html/index.html
+sudo systemctl restart nginx
+cat /etc/os-release
+ifconfig
+hostname
+
+
