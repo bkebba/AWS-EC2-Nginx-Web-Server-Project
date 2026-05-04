@@ -1,8 +1,7 @@
 # AWS EC2 Nginx Web Server Project
 
 ## Description
-I created a Linux EC2 instance on AWS.
-I installed Nginx and deployed a simple web page.
+I deployed a web server on AWS EC2 using Nginx.
 
 ## What I did
 - Launched an EC2 instance
