@@ -12,24 +12,39 @@ I installed Nginx and deployed a simple web page.
 - Opened port 80
 - Deployed a custom webpage
 
-## Commands used
+```bash
+sudo yum update -y
+sudo yum install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status nginx
+curl localhost
+sudo nano /usr/share/nginx/html/index.html
+sudo systemctl restart nginx
+cat /etc/os-release
+ifconfig
+hostname
 
-
-- sudo yum update -y
-- sudo yum install nginx -y
-- sudo systemctl start nginx
-- sudo systemctl enable nginx
-- sudo systemctl status nginx
-- curl localhost
-- sudo nano /usr/share/nginx/html/index.html
-- sudo systemctl restart nginx
-- cat /etc/os-release
-- ifconfig
-- hostname
-
-What I learned
+## What I learned
 - How to launch an EC2 instance
 - How to connect using SSH
 - How to install and manage Nginx
 - How to open HTTP traffic using security groups
 - How to deploy a custom webpage on AWS
+
+## Screenshots
+
+The screenshots in this repository show:
+
+- EC2 security group configuration
+- EC2 instance details
+- SSH connection steps
+- Successful SSH connection
+- Linux OS information
+- Network and hostname checks
+- Nginx installation
+- Nginx service started and enabled
+- Local test using curl localhost
+- Port 80 open for HTTP traffic
+- Nginx welcome page
+- Custom webpage deployed
