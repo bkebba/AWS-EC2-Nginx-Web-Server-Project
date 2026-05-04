@@ -13,29 +13,29 @@ I created a Linux EC2 instance on AWS and installed Nginx and deployed a simple 
 **# Update system
 sudo yum update -y
 
-Install Nginx
+# Install Nginx
 sudo yum install nginx -y
 
-Start Nginx
+# Start Nginx
 sudo systemctl start nginx
 
-Enable Nginx on boot
+# Enable Nginx on boot
 sudo systemctl enable nginx
 
-Check Nginx status
+# Check Nginx status
 sudo systemctl status nginx
 
-Test web server locally
-curl localhost**
+# Test web server locally
+curl localhost
 
-Edit default webpage
+# Edit default webpage
 sudo nano /usr/share/nginx/html/index.html
 
-Restart Nginx
+# Restart Nginx
 sudo systemctl restart nginx
 
-Check OS version
+# Check OS version
 cat /etc/os-release
 
-Check network info
+# Check network info
 ifconfig
